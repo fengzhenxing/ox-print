@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-
-  <parent>
-    <groupId>com.bupt</groupId>
-    <artifactId>os-print</artifactId>
-    <version>1.0-SNAPSHOT</version>
-  </parent>
-
+  <groupId>edu.bupt</groupId>
   <artifactId>os-print</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>os-print</name>
 
@@ -19,19 +13,13 @@
   </properties>
 
   <modules>
+    <module>ox-print-web</module>
+    <module>ox-print-dao</module>
+    <module>ox-print-service</module>
   </modules>
 
   <dependencyManagement>
     <dependencies>
     </dependencies>
   </dependencyManagement>
-
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
 </project>
